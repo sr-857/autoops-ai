@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.DS_Store
+logs/*.log
+!logs/.gitkeep
+output/*.json
+output/*.md
+!output/executive_report.md
+memory/*.json
+!memory/long_term_memory.json
