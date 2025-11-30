@@ -1,8 +1,35 @@
 # AUTOOPS AI — Multi-Agent System for Business Intelligence
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
+![Architecture](https://img.shields.io/badge/Architecture-Multi--Agent-orange)
+
 **A Production-Ready Multi-Agent Enterprise AI System**
 
 Transform raw business data into executive decisions through intelligent agent orchestration.
+
+> **🏆 Kaggle Capstone Project**: A complete, end-to-end implementation of a multi-agent system for automated business operations.
+
+---
+
+## 🚀 Quick Start
+
+Get up and running in seconds:
+
+```bash
+# 1. Clone repository
+git clone https://github.com/sr-857/autoops-ai.git
+cd autoops-ai
+
+# 2. Install dependencies
+pip install pandas numpy scipy
+
+# 3. Run with sample data
+python main.py
+```
+
+*Output report will be generated at `output/executive_report.md`*
 
 ---
 
@@ -314,57 +341,26 @@ This enables continuous refinement of the system.
 
 ---
 
-## 🚀 Setup Instructions
+## ⚙️ Advanced Usage & Configuration
 
-### Prerequisites
+### Command Line Arguments
 
-- Python 3.8+
-- pip
+Customize the system behavior with the following arguments:
 
-### Installation
+| Argument | Default | Description |
+|----------|---------|-------------|
+| `--input` | `datasets/sample_sales_data.csv` | Path to input CSV file |
+| `--output` | `output/executive_report.md` | Path to save the generated report |
+| `--log` | `logs/system.log` | Path to system log file |
+| `--memory` | `memory/long_term_memory.json` | Path to memory storage file |
 
-1. **Clone or download the project**:
-```bash
-cd /home/roney/.gemini/antigravity/scratch/autoops_ai
-```
-
-2. **Install dependencies**:
-```bash
-pip install pandas numpy scipy
-```
-
-3. **Verify structure**:
-```bash
-ls -R
-# Should show: agents/, tools/, datasets/, memory/, logs/, output/
-```
-
----
-
-## 💻 Usage
-
-### Basic Usage
-
-Run with default sample dataset:
-```bash
-python main.py
-```
-
-### Custom Dataset
-
-Run with your own CSV file:
-```bash
-python main.py --input path/to/your/data.csv --output path/to/report.md
-```
-
-### Full Options
+### Example: Custom Configuration
 
 ```bash
 python main.py \
-  --input datasets/sample_sales_data.csv \
-  --output output/executive_report.md \
-  --log logs/system.log \
-  --memory memory/long_term_memory.json
+  --input data/my_business_data.csv \
+  --output reports/december_analysis.md \
+  --log logs/production.log
 ```
 
 ### Expected Output
