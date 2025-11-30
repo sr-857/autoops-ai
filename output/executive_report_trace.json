@@ -1,0 +1,183 @@
+{
+  "session_id": "session_20251201_004119",
+  "traces": [
+    {
+      "agent": "DataIntakeAgent",
+      "action": "start",
+      "timestamp": "2025-12-01T00:41:19.514377",
+      "input_summary": {}
+    },
+    {
+      "agent": "DataIntakeAgent",
+      "action": "end",
+      "timestamp": "2025-12-01T00:41:19.519822",
+      "output_summary": {},
+      "duration_seconds": 0.005444526672363281
+    },
+    {
+      "agent": "TrendDetectionAgent",
+      "action": "start",
+      "timestamp": "2025-12-01T00:41:19.519901",
+      "input_summary": {}
+    },
+    {
+      "agent": "TrendDetectionAgent",
+      "action": "end",
+      "timestamp": "2025-12-01T00:41:19.524471",
+      "output_summary": {},
+      "duration_seconds": 0.004568815231323242
+    },
+    {
+      "agent": "RootCauseAgent",
+      "action": "start",
+      "timestamp": "2025-12-01T00:41:19.524551",
+      "input_summary": {}
+    },
+    {
+      "agent": "RootCauseAgent",
+      "action": "end",
+      "timestamp": "2025-12-01T00:41:19.527161",
+      "output_summary": {},
+      "duration_seconds": 0.0026090145111083984
+    },
+    {
+      "agent": "MemoryAgent",
+      "action": "start",
+      "timestamp": "2025-12-01T00:41:19.527247",
+      "input_summary": {}
+    },
+    {
+      "agent": "MemoryAgent",
+      "action": "end",
+      "timestamp": "2025-12-01T00:41:19.534711",
+      "output_summary": {},
+      "duration_seconds": 0.007463932037353516
+    },
+    {
+      "agent": "StrategyAgent",
+      "action": "start",
+      "timestamp": "2025-12-01T00:41:19.534870",
+      "input_summary": {}
+    },
+    {
+      "agent": "StrategyAgent",
+      "action": "end",
+      "timestamp": "2025-12-01T00:41:19.535419",
+      "output_summary": {},
+      "duration_seconds": 0.0005488395690917969
+    },
+    {
+      "agent": "ReportingAgent",
+      "action": "start",
+      "timestamp": "2025-12-01T00:41:19.535491",
+      "input_summary": {}
+    },
+    {
+      "agent": "ReportingAgent",
+      "action": "end",
+      "timestamp": "2025-12-01T00:41:19.535727",
+      "output_summary": {},
+      "duration_seconds": 0.00023651123046875
+    },
+    {
+      "agent": "EvaluationAgent",
+      "action": "start",
+      "timestamp": "2025-12-01T00:41:19.535892",
+      "input_summary": {}
+    },
+    {
+      "agent": "EvaluationAgent",
+      "action": "end",
+      "timestamp": "2025-12-01T00:41:19.536016",
+      "output_summary": {},
+      "duration_seconds": 0.0001239776611328125
+    }
+  ],
+  "metrics": {
+    "data_rows_processed": [
+      {
+        "value": 91,
+        "timestamp": "2025-12-01T00:41:19.519806",
+        "tags": {}
+      }
+    ],
+    "data_quality_score": [
+      {
+        "value": 100.0,
+        "timestamp": "2025-12-01T00:41:19.519814",
+        "tags": {}
+      }
+    ],
+    "Revenue_growth_rate": [
+      {
+        "value": 274.44,
+        "timestamp": "2025-12-01T00:41:19.521269",
+        "tags": {}
+      }
+    ],
+    "Revenue_volatility": [
+      {
+        "value": 1.1,
+        "timestamp": "2025-12-01T00:41:19.521277",
+        "tags": {}
+      }
+    ],
+    "Customers_growth_rate": [
+      {
+        "value": 272.92,
+        "timestamp": "2025-12-01T00:41:19.522401",
+        "tags": {}
+      }
+    ],
+    "Customers_volatility": [
+      {
+        "value": 1.07,
+        "timestamp": "2025-12-01T00:41:19.522408",
+        "tags": {}
+      }
+    ],
+    "Conversion_Rate_growth_rate": [
+      {
+        "value": 137.5,
+        "timestamp": "2025-12-01T00:41:19.523467",
+        "tags": {}
+      }
+    ],
+    "Conversion_Rate_volatility": [
+      {
+        "value": 0.95,
+        "timestamp": "2025-12-01T00:41:19.523473",
+        "tags": {}
+      }
+    ],
+    "Marketing_Spend_growth_rate": [
+      {
+        "value": 201.25,
+        "timestamp": "2025-12-01T00:41:19.524448",
+        "tags": {}
+      }
+    ],
+    "Marketing_Spend_volatility": [
+      {
+        "value": 0.81,
+        "timestamp": "2025-12-01T00:41:19.524454",
+        "tags": {}
+      }
+    ],
+    "report_quality_score": [
+      {
+        "value": 9.7,
+        "timestamp": "2025-12-01T00:41:19.536008",
+        "tags": {}
+      }
+    ],
+    "confidence_score": [
+      {
+        "value": 10.0,
+        "timestamp": "2025-12-01T00:41:19.536013",
+        "tags": {}
+      }
+    ]
+  },
+  "generated_at": "2025-12-01T00:41:19.536382"
+}

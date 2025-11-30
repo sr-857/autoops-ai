@@ -1,0 +1,618 @@
+{
+  "sessions": [
+    {
+      "session_id": "session_1_20251201_004119",
+      "timestamp": "2025-12-01T00:41:19.527577",
+      "data": {
+        "date_range": {
+          "start": "2024-09-01",
+          "end": "2024-11-30"
+        },
+        "kpis": {
+          "Revenue": 102085.71428571429,
+          "Customers": 2705.21978021978,
+          "Conversion_Rate": 5.35989010989011,
+          "Marketing_Spend": 15273.626373626374
+        },
+        "top_trends": [
+          {
+            "kpi": "Revenue",
+            "growth_pct": 274.44,
+            "direction": "upward",
+            "volatility": 1.1
+          },
+          {
+            "kpi": "Customers",
+            "growth_pct": 272.92,
+            "direction": "upward",
+            "volatility": 1.07
+          },
+          {
+            "kpi": "Marketing_Spend",
+            "growth_pct": 201.25,
+            "direction": "upward",
+            "volatility": 0.81
+          }
+        ],
+        "key_hypotheses": [
+          "The increase in Revenue may be driven by changes in Customers (correlation: 1.00)",
+          "The increase in Revenue may be driven by changes in Marketing_Spend (correlation: 1.00)",
+          "The increase in Revenue may be driven by changes in Conversion_Rate (correlation: 1.00)"
+        ]
+      }
+    }
+  ],
+  "kpi_history": {
+    "2024-09-01": {
+      "Revenue": 45000.0,
+      "Customers": 1200.0,
+      "Conversion_Rate": 3.2,
+      "Marketing_Spend": 8000.0
+    },
+    "2024-09-02": {
+      "Revenue": 47500.0,
+      "Customers": 1250.0,
+      "Conversion_Rate": 3.3,
+      "Marketing_Spend": 8200.0
+    },
+    "2024-09-03": {
+      "Revenue": 46800.0,
+      "Customers": 1230.0,
+      "Conversion_Rate": 3.25,
+      "Marketing_Spend": 8100.0
+    },
+    "2024-09-04": {
+      "Revenue": 48200.0,
+      "Customers": 1280.0,
+      "Conversion_Rate": 3.4,
+      "Marketing_Spend": 8300.0
+    },
+    "2024-09-05": {
+      "Revenue": 49500.0,
+      "Customers": 1320.0,
+      "Conversion_Rate": 3.5,
+      "Marketing_Spend": 8500.0
+    },
+    "2024-09-06": {
+      "Revenue": 51000.0,
+      "Customers": 1350.0,
+      "Conversion_Rate": 3.6,
+      "Marketing_Spend": 8600.0
+    },
+    "2024-09-07": {
+      "Revenue": 52300.0,
+      "Customers": 1380.0,
+      "Conversion_Rate": 3.65,
+      "Marketing_Spend": 8700.0
+    },
+    "2024-09-08": {
+      "Revenue": 50800.0,
+      "Customers": 1340.0,
+      "Conversion_Rate": 3.55,
+      "Marketing_Spend": 8500.0
+    },
+    "2024-09-09": {
+      "Revenue": 49200.0,
+      "Customers": 1300.0,
+      "Conversion_Rate": 3.45,
+      "Marketing_Spend": 8300.0
+    },
+    "2024-09-10": {
+      "Revenue": 48500.0,
+      "Customers": 1280.0,
+      "Conversion_Rate": 3.4,
+      "Marketing_Spend": 8200.0
+    },
+    "2024-09-11": {
+      "Revenue": 50000.0,
+      "Customers": 1320.0,
+      "Conversion_Rate": 3.5,
+      "Marketing_Spend": 8400.0
+    },
+    "2024-09-12": {
+      "Revenue": 51500.0,
+      "Customers": 1360.0,
+      "Conversion_Rate": 3.6,
+      "Marketing_Spend": 8600.0
+    },
+    "2024-09-13": {
+      "Revenue": 53000.0,
+      "Customers": 1400.0,
+      "Conversion_Rate": 3.7,
+      "Marketing_Spend": 8800.0
+    },
+    "2024-09-14": {
+      "Revenue": 54500.0,
+      "Customers": 1440.0,
+      "Conversion_Rate": 3.75,
+      "Marketing_Spend": 9000.0
+    },
+    "2024-09-15": {
+      "Revenue": 56000.0,
+      "Customers": 1480.0,
+      "Conversion_Rate": 3.8,
+      "Marketing_Spend": 9200.0
+    },
+    "2024-09-16": {
+      "Revenue": 57200.0,
+      "Customers": 1510.0,
+      "Conversion_Rate": 3.85,
+      "Marketing_Spend": 9300.0
+    },
+    "2024-09-17": {
+      "Revenue": 58500.0,
+      "Customers": 1545.0,
+      "Conversion_Rate": 3.9,
+      "Marketing_Spend": 9500.0
+    },
+    "2024-09-18": {
+      "Revenue": 59800.0,
+      "Customers": 1580.0,
+      "Conversion_Rate": 3.95,
+      "Marketing_Spend": 9700.0
+    },
+    "2024-09-19": {
+      "Revenue": 61000.0,
+      "Customers": 1610.0,
+      "Conversion_Rate": 4.0,
+      "Marketing_Spend": 9800.0
+    },
+    "2024-09-20": {
+      "Revenue": 62500.0,
+      "Customers": 1650.0,
+      "Conversion_Rate": 4.05,
+      "Marketing_Spend": 10000.0
+    },
+    "2024-09-21": {
+      "Revenue": 64000.0,
+      "Customers": 1690.0,
+      "Conversion_Rate": 4.1,
+      "Marketing_Spend": 10200.0
+    },
+    "2024-09-22": {
+      "Revenue": 65200.0,
+      "Customers": 1720.0,
+      "Conversion_Rate": 4.15,
+      "Marketing_Spend": 10300.0
+    },
+    "2024-09-23": {
+      "Revenue": 66800.0,
+      "Customers": 1760.0,
+      "Conversion_Rate": 4.2,
+      "Marketing_Spend": 10500.0
+    },
+    "2024-09-24": {
+      "Revenue": 68000.0,
+      "Customers": 1795.0,
+      "Conversion_Rate": 4.25,
+      "Marketing_Spend": 10700.0
+    },
+    "2024-09-25": {
+      "Revenue": 69500.0,
+      "Customers": 1835.0,
+      "Conversion_Rate": 4.3,
+      "Marketing_Spend": 10900.0
+    },
+    "2024-09-26": {
+      "Revenue": 71000.0,
+      "Customers": 1875.0,
+      "Conversion_Rate": 4.35,
+      "Marketing_Spend": 11100.0
+    },
+    "2024-09-27": {
+      "Revenue": 72500.0,
+      "Customers": 1915.0,
+      "Conversion_Rate": 4.4,
+      "Marketing_Spend": 11300.0
+    },
+    "2024-09-28": {
+      "Revenue": 74000.0,
+      "Customers": 1955.0,
+      "Conversion_Rate": 4.45,
+      "Marketing_Spend": 11500.0
+    },
+    "2024-09-29": {
+      "Revenue": 75500.0,
+      "Customers": 1995.0,
+      "Conversion_Rate": 4.5,
+      "Marketing_Spend": 11700.0
+    },
+    "2024-09-30": {
+      "Revenue": 77000.0,
+      "Customers": 2035.0,
+      "Conversion_Rate": 4.55,
+      "Marketing_Spend": 11900.0
+    },
+    "2024-10-01": {
+      "Revenue": 78500.0,
+      "Customers": 2075.0,
+      "Conversion_Rate": 4.6,
+      "Marketing_Spend": 12100.0
+    },
+    "2024-10-02": {
+      "Revenue": 80000.0,
+      "Customers": 2115.0,
+      "Conversion_Rate": 4.65,
+      "Marketing_Spend": 12300.0
+    },
+    "2024-10-03": {
+      "Revenue": 81500.0,
+      "Customers": 2155.0,
+      "Conversion_Rate": 4.7,
+      "Marketing_Spend": 12500.0
+    },
+    "2024-10-04": {
+      "Revenue": 83000.0,
+      "Customers": 2195.0,
+      "Conversion_Rate": 4.75,
+      "Marketing_Spend": 12700.0
+    },
+    "2024-10-05": {
+      "Revenue": 84500.0,
+      "Customers": 2235.0,
+      "Conversion_Rate": 4.8,
+      "Marketing_Spend": 12900.0
+    },
+    "2024-10-06": {
+      "Revenue": 86000.0,
+      "Customers": 2275.0,
+      "Conversion_Rate": 4.85,
+      "Marketing_Spend": 13100.0
+    },
+    "2024-10-07": {
+      "Revenue": 87500.0,
+      "Customers": 2315.0,
+      "Conversion_Rate": 4.9,
+      "Marketing_Spend": 13300.0
+    },
+    "2024-10-08": {
+      "Revenue": 89000.0,
+      "Customers": 2355.0,
+      "Conversion_Rate": 4.95,
+      "Marketing_Spend": 13500.0
+    },
+    "2024-10-09": {
+      "Revenue": 90500.0,
+      "Customers": 2395.0,
+      "Conversion_Rate": 5.0,
+      "Marketing_Spend": 13700.0
+    },
+    "2024-10-10": {
+      "Revenue": 92000.0,
+      "Customers": 2435.0,
+      "Conversion_Rate": 5.05,
+      "Marketing_Spend": 13900.0
+    },
+    "2024-10-11": {
+      "Revenue": 93500.0,
+      "Customers": 2475.0,
+      "Conversion_Rate": 5.1,
+      "Marketing_Spend": 14100.0
+    },
+    "2024-10-12": {
+      "Revenue": 95000.0,
+      "Customers": 2515.0,
+      "Conversion_Rate": 5.15,
+      "Marketing_Spend": 14300.0
+    },
+    "2024-10-13": {
+      "Revenue": 96500.0,
+      "Customers": 2555.0,
+      "Conversion_Rate": 5.2,
+      "Marketing_Spend": 14500.0
+    },
+    "2024-10-14": {
+      "Revenue": 98000.0,
+      "Customers": 2595.0,
+      "Conversion_Rate": 5.25,
+      "Marketing_Spend": 14700.0
+    },
+    "2024-10-15": {
+      "Revenue": 99500.0,
+      "Customers": 2635.0,
+      "Conversion_Rate": 5.3,
+      "Marketing_Spend": 14900.0
+    },
+    "2024-10-16": {
+      "Revenue": 101000.0,
+      "Customers": 2675.0,
+      "Conversion_Rate": 5.35,
+      "Marketing_Spend": 15100.0
+    },
+    "2024-10-17": {
+      "Revenue": 102500.0,
+      "Customers": 2715.0,
+      "Conversion_Rate": 5.4,
+      "Marketing_Spend": 15300.0
+    },
+    "2024-10-18": {
+      "Revenue": 104000.0,
+      "Customers": 2755.0,
+      "Conversion_Rate": 5.45,
+      "Marketing_Spend": 15500.0
+    },
+    "2024-10-19": {
+      "Revenue": 105500.0,
+      "Customers": 2795.0,
+      "Conversion_Rate": 5.5,
+      "Marketing_Spend": 15700.0
+    },
+    "2024-10-20": {
+      "Revenue": 107000.0,
+      "Customers": 2835.0,
+      "Conversion_Rate": 5.55,
+      "Marketing_Spend": 15900.0
+    },
+    "2024-10-21": {
+      "Revenue": 108500.0,
+      "Customers": 2875.0,
+      "Conversion_Rate": 5.6,
+      "Marketing_Spend": 16100.0
+    },
+    "2024-10-22": {
+      "Revenue": 110000.0,
+      "Customers": 2915.0,
+      "Conversion_Rate": 5.65,
+      "Marketing_Spend": 16300.0
+    },
+    "2024-10-23": {
+      "Revenue": 111500.0,
+      "Customers": 2955.0,
+      "Conversion_Rate": 5.7,
+      "Marketing_Spend": 16500.0
+    },
+    "2024-10-24": {
+      "Revenue": 113000.0,
+      "Customers": 2995.0,
+      "Conversion_Rate": 5.75,
+      "Marketing_Spend": 16700.0
+    },
+    "2024-10-25": {
+      "Revenue": 114500.0,
+      "Customers": 3035.0,
+      "Conversion_Rate": 5.8,
+      "Marketing_Spend": 16900.0
+    },
+    "2024-10-26": {
+      "Revenue": 116000.0,
+      "Customers": 3075.0,
+      "Conversion_Rate": 5.85,
+      "Marketing_Spend": 17100.0
+    },
+    "2024-10-27": {
+      "Revenue": 117500.0,
+      "Customers": 3115.0,
+      "Conversion_Rate": 5.9,
+      "Marketing_Spend": 17300.0
+    },
+    "2024-10-28": {
+      "Revenue": 119000.0,
+      "Customers": 3155.0,
+      "Conversion_Rate": 5.95,
+      "Marketing_Spend": 17500.0
+    },
+    "2024-10-29": {
+      "Revenue": 120500.0,
+      "Customers": 3195.0,
+      "Conversion_Rate": 6.0,
+      "Marketing_Spend": 17700.0
+    },
+    "2024-10-30": {
+      "Revenue": 122000.0,
+      "Customers": 3235.0,
+      "Conversion_Rate": 6.05,
+      "Marketing_Spend": 17900.0
+    },
+    "2024-10-31": {
+      "Revenue": 123500.0,
+      "Customers": 3275.0,
+      "Conversion_Rate": 6.1,
+      "Marketing_Spend": 18100.0
+    },
+    "2024-11-01": {
+      "Revenue": 125000.0,
+      "Customers": 3315.0,
+      "Conversion_Rate": 6.15,
+      "Marketing_Spend": 18300.0
+    },
+    "2024-11-02": {
+      "Revenue": 126500.0,
+      "Customers": 3355.0,
+      "Conversion_Rate": 6.2,
+      "Marketing_Spend": 18500.0
+    },
+    "2024-11-03": {
+      "Revenue": 128000.0,
+      "Customers": 3395.0,
+      "Conversion_Rate": 6.25,
+      "Marketing_Spend": 18700.0
+    },
+    "2024-11-04": {
+      "Revenue": 129500.0,
+      "Customers": 3435.0,
+      "Conversion_Rate": 6.3,
+      "Marketing_Spend": 18900.0
+    },
+    "2024-11-05": {
+      "Revenue": 131000.0,
+      "Customers": 3475.0,
+      "Conversion_Rate": 6.35,
+      "Marketing_Spend": 19100.0
+    },
+    "2024-11-06": {
+      "Revenue": 132500.0,
+      "Customers": 3515.0,
+      "Conversion_Rate": 6.4,
+      "Marketing_Spend": 19300.0
+    },
+    "2024-11-07": {
+      "Revenue": 134000.0,
+      "Customers": 3555.0,
+      "Conversion_Rate": 6.45,
+      "Marketing_Spend": 19500.0
+    },
+    "2024-11-08": {
+      "Revenue": 135500.0,
+      "Customers": 3595.0,
+      "Conversion_Rate": 6.5,
+      "Marketing_Spend": 19700.0
+    },
+    "2024-11-09": {
+      "Revenue": 137000.0,
+      "Customers": 3635.0,
+      "Conversion_Rate": 6.55,
+      "Marketing_Spend": 19900.0
+    },
+    "2024-11-10": {
+      "Revenue": 138500.0,
+      "Customers": 3675.0,
+      "Conversion_Rate": 6.6,
+      "Marketing_Spend": 20100.0
+    },
+    "2024-11-11": {
+      "Revenue": 140000.0,
+      "Customers": 3715.0,
+      "Conversion_Rate": 6.65,
+      "Marketing_Spend": 20300.0
+    },
+    "2024-11-12": {
+      "Revenue": 141500.0,
+      "Customers": 3755.0,
+      "Conversion_Rate": 6.7,
+      "Marketing_Spend": 20500.0
+    },
+    "2024-11-13": {
+      "Revenue": 143000.0,
+      "Customers": 3795.0,
+      "Conversion_Rate": 6.75,
+      "Marketing_Spend": 20700.0
+    },
+    "2024-11-14": {
+      "Revenue": 144500.0,
+      "Customers": 3835.0,
+      "Conversion_Rate": 6.8,
+      "Marketing_Spend": 20900.0
+    },
+    "2024-11-15": {
+      "Revenue": 146000.0,
+      "Customers": 3875.0,
+      "Conversion_Rate": 6.85,
+      "Marketing_Spend": 21100.0
+    },
+    "2024-11-16": {
+      "Revenue": 147500.0,
+      "Customers": 3915.0,
+      "Conversion_Rate": 6.9,
+      "Marketing_Spend": 21300.0
+    },
+    "2024-11-17": {
+      "Revenue": 149000.0,
+      "Customers": 3955.0,
+      "Conversion_Rate": 6.95,
+      "Marketing_Spend": 21500.0
+    },
+    "2024-11-18": {
+      "Revenue": 150500.0,
+      "Customers": 3995.0,
+      "Conversion_Rate": 7.0,
+      "Marketing_Spend": 21700.0
+    },
+    "2024-11-19": {
+      "Revenue": 152000.0,
+      "Customers": 4035.0,
+      "Conversion_Rate": 7.05,
+      "Marketing_Spend": 21900.0
+    },
+    "2024-11-20": {
+      "Revenue": 153500.0,
+      "Customers": 4075.0,
+      "Conversion_Rate": 7.1,
+      "Marketing_Spend": 22100.0
+    },
+    "2024-11-21": {
+      "Revenue": 155000.0,
+      "Customers": 4115.0,
+      "Conversion_Rate": 7.15,
+      "Marketing_Spend": 22300.0
+    },
+    "2024-11-22": {
+      "Revenue": 156500.0,
+      "Customers": 4155.0,
+      "Conversion_Rate": 7.2,
+      "Marketing_Spend": 22500.0
+    },
+    "2024-11-23": {
+      "Revenue": 158000.0,
+      "Customers": 4195.0,
+      "Conversion_Rate": 7.25,
+      "Marketing_Spend": 22700.0
+    },
+    "2024-11-24": {
+      "Revenue": 159500.0,
+      "Customers": 4235.0,
+      "Conversion_Rate": 7.3,
+      "Marketing_Spend": 22900.0
+    },
+    "2024-11-25": {
+      "Revenue": 161000.0,
+      "Customers": 4275.0,
+      "Conversion_Rate": 7.35,
+      "Marketing_Spend": 23100.0
+    },
+    "2024-11-26": {
+      "Revenue": 162500.0,
+      "Customers": 4315.0,
+      "Conversion_Rate": 7.4,
+      "Marketing_Spend": 23300.0
+    },
+    "2024-11-27": {
+      "Revenue": 164000.0,
+      "Customers": 4355.0,
+      "Conversion_Rate": 7.45,
+      "Marketing_Spend": 23500.0
+    },
+    "2024-11-28": {
+      "Revenue": 165500.0,
+      "Customers": 4395.0,
+      "Conversion_Rate": 7.5,
+      "Marketing_Spend": 23700.0
+    },
+    "2024-11-29": {
+      "Revenue": 167000.0,
+      "Customers": 4435.0,
+      "Conversion_Rate": 7.55,
+      "Marketing_Spend": 23900.0
+    },
+    "2024-11-30": {
+      "Revenue": 168500.0,
+      "Customers": 4475.0,
+      "Conversion_Rate": 7.6,
+      "Marketing_Spend": 24100.0
+    }
+  },
+  "insights": [
+    {
+      "category": "hypothesis",
+      "text": "The increase in Revenue may be driven by changes in Customers (correlation: 1.00)",
+      "source": "RootCauseAgent",
+      "timestamp": "2025-12-01T00:41:19.532535"
+    },
+    {
+      "category": "hypothesis",
+      "text": "The increase in Revenue may be driven by changes in Marketing_Spend (correlation: 1.00)",
+      "source": "RootCauseAgent",
+      "timestamp": "2025-12-01T00:41:19.533300"
+    },
+    {
+      "category": "hypothesis",
+      "text": "The increase in Revenue may be driven by changes in Conversion_Rate (correlation: 1.00)",
+      "source": "RootCauseAgent",
+      "timestamp": "2025-12-01T00:41:19.533978"
+    }
+  ],
+  "metadata": {
+    "created_at": "2024-12-01T00:00:00",
+    "total_sessions": 1,
+    "last_updated": "2025-12-01T00:41:19.533983"
+  }
+}
